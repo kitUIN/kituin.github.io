@@ -18,7 +18,12 @@ module.exports = [
     text: '文章',
     link: '/text/',
     items: [
-
+        {
+          text: '推荐',
+          items: [
+            { text: 'pixiv画师推荐', link: '/text/recommend/pixiv/'}
+          ]
+        }
     ],
   },
   {

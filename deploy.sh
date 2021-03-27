@@ -10,7 +10,7 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github
-echo 'b.xugaoyi.com' > CNAME
+echo 'www.kituin.cf' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:kitUIN/kitUIN.github.io.git
@@ -23,7 +23,7 @@ fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f git@github.com:kitUIN/kitUIN.github.io.git
+git push -f git@github.com:kitUIN/kitUIN.github.io.git gh-pages
 
 cd - # 退回开始所在目录
 rm -rf docs/.vuepress/dist
