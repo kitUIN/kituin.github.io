@@ -48,6 +48,53 @@ module.exports = [
     },
   ],
   [
+    'vuepress-plugin-reading-progress',
+    {
+      // 阅读进度条
+      readingDir: {posts1: 'top', posts2: 'bottom', posts3: 'left'},
+      fixed:'botton',
+      readingShow: false,
+    },
+  ],
+  [
+    'vuepress-plugin-cursor-effects',
+    {
+      // 点击特效
+      size: 2, // size of the particle, default: 2
+      shape: 'star', // shape of the particle, default: 'star'
+      zIndex: 999999999, // z-index property of the canvas, default: 999999999
+    },
+  ],
+  [
+    'vuepress-plugin-dynamic-title',
+    {
+      // 网页头
+      showIcon: '/failure.ico',
+      showText: '🕊️鸽子日记🕊️',
+      hideIcon: '/failure.ico',
+      hideText: '👀看不到我👀',
+      recoverTime: 2000,
+    },
+  ],
+  [
+    'vuepress-plugin-meting',
+    {
+      // 播放器https://moefyit.github.io/moefy-vuepress/packages/meting.html
+      // metingApi: 'https://meting.example.com/api/',
+      meting: {
+        auto:'https://music.163.com/#/playlist?id=649223692',
+      }, // 不配置该项的话不会出现全局播放器
+      aplayer: {
+        autoplay: true,
+        lrcType: 3,
+      },
+      mobile:{
+        cover: true,  // 是否显示封面图，如果隐藏的话可以防止播放器遮挡移动设备上的文字内容
+        lrc: true, // 是否显示歌词
+      }
+    },
+  ],
+  [
     'demo-block',
     {
       // demo演示模块 https://github.com/xiguaxigua/vuepress-plugin-demo-block

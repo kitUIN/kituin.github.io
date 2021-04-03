@@ -31,7 +31,8 @@ module.exports = [
     link: '/more/',
     items: [
       { text: '友情链接', link: '/friends/' },
-      { text: '关于', link: '/about/' }
+      { text: '关于', link: '/about/' },
+      { text: '音乐', link: '/music/'}
     ],
   },
   { text: '支持', link: '/sponsor/' },
