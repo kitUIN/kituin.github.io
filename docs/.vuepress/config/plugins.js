@@ -6,8 +6,6 @@ module.exports = [
   //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
   // }],
 
-  'vuepress-plugin-baidu-autopush', // 百度自动推送
-
   // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
   [
     'thirdparty-search',
@@ -70,6 +68,15 @@ module.exports = [
       options: {
         bgColor: 'rgba(0,0,0,0.6)',
       },
+    },
+  ],
+  [
+    'vuepress-plugin-img-lazy', // 懒惰加载图片
+    {
+      useNative: true,
+      selector: 'lazy',
+      // rootMargin: '200px',
+      // prefix: 'src => src && src.charAt(0) === \'/\' && !src.startsWith(ctx.base) ? ctx.base + src.slice(1) : src',
     },
   ],
   [

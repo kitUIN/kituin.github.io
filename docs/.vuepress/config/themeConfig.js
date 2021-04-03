@@ -11,7 +11,7 @@ module.exports = {
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 编辑的文件夹
-  editLinks: true, // 启用编辑
+  editLinks: false, // 启用编辑
   editLinkText: '编辑',
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
@@ -54,7 +54,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: 'https://z3.ax1x.com/2021/03/20/64PJiT.jpg',
     name: 'KitUIN',
-    slogan: '芜湖！降落摸鱼~',
+    slogan: '芜湖!正在摸鱼~',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏

@@ -1,8 +1,8 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: KitUIN咕咕咕~~
-tagline: 一切命运的馈赠都在背后标好了价格
+heroText: ~~咕咕咕 KitUIN 咕咕咕~~
+tagline: 鸽子是和平的象征ㄟ(≧◇≦)ㄏ
 # actionText: 立刻进入 →
 # actionLink: /web/
 bannerBg: /img/bg.png 

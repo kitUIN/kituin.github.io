@@ -16,7 +16,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:kitUIN/kitUIN.github.io.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/kitUIN.github.io.git
+  githubUrl=https://kitUIN:${GITHUB_TOKEN}@github.com/kitUIN.github.io.git
   git config --global user.name "kitUIN"
   git config --global user.email "kulujun@gmail.com"
 fi
