@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: ~~咕咕咕 KitUIN 咕咕咕~~
+heroText: KitUIN
 tagline: 鸽子是和平的象征ㄟ(≧◇≦)ㄏ
 # actionText: 立刻进入 →
 # actionLink: /web/

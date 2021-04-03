@@ -23,7 +23,7 @@ fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f git@github.com:kitUIN/kitUIN.github.io.git gh-pages
+git push -f git@github.com:kitUIN/kitUIN.github.io.git master:gh-pages
 
 cd - # 退回开始所在目录
 rm -rf docs/.vuepress/dist
