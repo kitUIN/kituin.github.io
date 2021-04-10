@@ -23,6 +23,12 @@ module.exports = [
           items: [
             { text: 'pixiv画师推荐', link: '/text/recommend/pixiv/'}
           ]
+        },
+        {
+          text: '技术大坑',
+          items: [
+            { text: 'Debain中使用pyppeteer走过的坑', link: '/text/tech/Debian/01/'}
+          ]
         }
     ],
   },
