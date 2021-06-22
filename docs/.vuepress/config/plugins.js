@@ -77,24 +77,6 @@ module.exports = [
     },
   ],
   [
-    'vuepress-plugin-meting',
-    {
-      // 播放器https://moefyit.github.io/moefy-vuepress/packages/meting.html
-      // metingApi: 'https://meting.example.com/api/',
-      meting: {
-        auto:'https://music.163.com/#/playlist?id=649223692',
-      }, // 不配置该项的话不会出现全局播放器
-      aplayer: {
-        autoplay: true,
-        lrcType: 3,
-      },
-      mobile:{
-        cover: true,  // 是否显示封面图，如果隐藏的话可以防止播放器遮挡移动设备上的文字内容
-        lrc: true, // 是否显示歌词
-      }
-    },
-  ],
-  [
     'demo-block',
     {
       // demo演示模块 https://github.com/xiguaxigua/vuepress-plugin-demo-block

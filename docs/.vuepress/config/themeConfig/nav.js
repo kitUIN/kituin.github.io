@@ -29,6 +29,12 @@ module.exports = [
           items: [
             { text: 'Debain中使用pyppeteer走过的坑', link: '/text/tech/Debian/01/'}
           ]
+        },
+        {
+          text: 'Minecraft',
+          items: [
+            { text: '养老服务器', link: '/text/minecraft/old/01'}
+          ]
         }
     ],
   },
