@@ -10,7 +10,7 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github
-echo 'www.kituin.cf' > CNAME
+echo 'kulujun.cf' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:kitUIN/kitUIN.github.io.git
