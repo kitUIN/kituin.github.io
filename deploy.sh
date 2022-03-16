@@ -26,4 +26,4 @@ git commit -m "${msg}"
 git push -f git@github.com:kitUIN/kitUIN.github.io.git master:gh-pages
 
 cd - # 退回开始所在目录
-rm -rf docs/.vuepress/dist
+rm -rf docs/.vuepress/diste
