@@ -8,7 +8,7 @@ on:
   push:
     branches:
       - master
-
+  workflow_dispatch:
 env: # 设置环境变量
   TZ: Asia/Shanghai # 时区（设置时区可使页面中的`最近更新时间`使用时区时间）
 
@@ -18,7 +18,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [16.x]
 
     steps:
       - name: Checkout # 步骤1
@@ -31,6 +31,7 @@ jobs:
       - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
           npm install
+          npm audit fix
           npm run build
       - name: Build and Deploy # 步骤3 （只提交到github可以使用这个步骤）
         uses: JamesIves/github-pages-deploy-action@v4.2.5 # 作用：将项目构建和部署到github。 https://github.com/JamesIves/github-pages-deploy-action
