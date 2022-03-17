@@ -19,10 +19,10 @@ jobs:
         node-version: [14.x]
 
     steps:
-      - name: Checkout # 步骤1
+      - name: Checkout 🛎️
         uses: actions/checkout@v1 # 使用的动作。格式：userName/repoName。作用：检出仓库，获取源码。 官方actions库：https://github.com/actions
       
-      - name: Use Node.js ${{ matrix.node-version }} # 步骤2
+      - name: Use Node.js ${{ matrix.node-version }} 📦# 步骤2
         uses: actions/setup-node@v1 # 作用：安装nodejs
         with:
           node-version: ${{ matrix.node-version }} # 版本
@@ -30,10 +30,9 @@ jobs:
         run: |
           npm install
           npm run build
-      - name: Build and Deploy # 步骤3 （只提交到github可以使用这个步骤）
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5 # 作用：将项目构建和部署到github。 https://github.com/JamesIves/github-pages-deploy-action
-        env: # 设置环境变量
-          token: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
-          branch: gh-pages # 部署到的分支
+        with:
+          branch: gh-pages
           folder: docs/.vuepress/dist # 要部署的文件夹.
           commit-message: GitHub Action Deploy
