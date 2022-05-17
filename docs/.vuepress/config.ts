@@ -52,7 +52,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '技术大坑',
             items: [
               { text: 'Debain中使用pyppeteer走过的坑', link: '/text/tech/Debian/01/'},
-              { text: '在红米AC2100上OpenWrt使用', link: '/text/tech/OpenWrt/01/'}
+              { text: '在红米AC2100上OpenWrt使用', link: '/text/tech/OpenWrt/01/'},
+              { text: '创建nuget包(C++/WinRT)', link: '/text/tech/C++WinRT/01/'},
             ]
           },
           {
