@@ -33,7 +33,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           text: '帮助手册',
           items: [
-            { text: 'PicImageSearch', link: '/wiki/picimagesearch/' }
+            { text: 'PicImageSearch', link: '/wiki/picimagesearch/' },
+            { text: 'BikaClient', link: '/wiki/BikaClient/' }
           ],
         }
       ],
