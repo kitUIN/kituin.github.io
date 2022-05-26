@@ -267,7 +267,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
          options: {
            el: '#valine-vuepress-comment',
            serverURL: 'https://kituin-comments.vercel.app/', //  例如 "https://***.vercel.app/"
-	       path: '<%- frontmatter.commentid || frontmatter.permalink %>'
+	       path: '<%- frontmatter.commentid || frontmatter.permalink %>',
+           emoji: [
+              'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
+              'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
+            ],
+           placeholder: "请留言(填写邮箱可在被回复时收到邮件提醒)"
          }
       }
     ],
