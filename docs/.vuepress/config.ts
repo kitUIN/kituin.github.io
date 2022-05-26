@@ -92,7 +92,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     },
   ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: 'img/bitbug.ico', // 导航栏logo
+    logo: '/img/bitbug.ico', // 导航栏logo
     //repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -179,7 +179,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
-    ['link', { rel: 'icon', href: '/bitbug.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: '/img/bitbug.ico' }], //favicons，资源放在public文件夹
   [
     'meta',
     {
@@ -221,9 +221,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'vuepress-plugin-dynamic-title',
       {
         // 网页头
-        showIcon: '/failure.ico',
+        showIcon: '/img/bitbug.ico',
         showText: '🕊️鸽子日记🕊️',
-        hideIcon: '/failure.ico',
+        hideIcon: '/img/bitbug.ico',
         hideText: '👀看不到我👀',
         recoverTime: 2000,
       },
