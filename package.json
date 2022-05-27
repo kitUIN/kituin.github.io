@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-theme-vdoing-template",
+  "name": "kituin.github,io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/u2sb/vuepress-theme-vdoing-template.git"
+    "url": "git+https://github.com/kitUIN/kituin.github.io.git"
   },
-  "author": "MonoLogueChi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/u2sb/vuepress-theme-vdoing-template/issues"
-  },
-  "homepage": "https://github.com/u2sb/vuepress-theme-vdoing-template#readme",
+  "author": "kitUIN",
+  "license": "MIT",
+  "homepage": "https://kituin.fun",
   "dependencies": {
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-attrs": "^4.1.3",
