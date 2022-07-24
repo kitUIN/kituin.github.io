@@ -53,7 +53,7 @@ export default <VdoingThemeConfig>{
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
     blogger: {
       // 博主信息，显示在首页侧边栏
-      avatar: 'https://z3.ax1x.com/2021/03/20/64PJiT.jpg',
+      avatar: '/img/kit.jpg',
       name: 'KitUIN',
       slogan: '芜湖!正在摸鱼~',
     },
