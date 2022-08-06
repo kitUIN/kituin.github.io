@@ -11,8 +11,8 @@ export default <Array<NavItem>>[
         {
           text: '帮助手册',
           items: [
-            { text: 'PicImageSearch', link: '/wiki/picimagesearch/' },
-            { text: 'BikaClient', link: '/wiki/bikaclient/' }
+            { text: 'PicImageSearch', link: 'https://pic-image-search.kituin.fun/' },
+            { text: 'BikaClient', link: 'https://bika-client.kituin.fun/' }
           ],
         }
       ],

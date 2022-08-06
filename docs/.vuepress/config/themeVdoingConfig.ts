@@ -7,7 +7,7 @@ export default <VdoingThemeConfig>{
   nav: nav, // 上方导航栏配置, 如需修改请修改 nav.ts
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   logo: "/img/kit.jpg", // 导航栏Logo
-  repo: "kitUIN/kituin.github.io", // 导航栏右侧生成Github链接
+  repo: "kitUIN", // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: "上次更新", // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
   docsDir: "docs", // 编辑的文件夹
@@ -82,6 +82,6 @@ export default <VdoingThemeConfig>{
       // 页脚信息
       createYear: 2021, // 博客创建年份
       copyrightInfo:
-        'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+        'KitUIN | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
     },
 };
