@@ -267,7 +267,7 @@ author: {
            // options选项中的所有参数，会传给Waline的配置
            options: {
              el: '#valine-vuepress-comment',
-             serverURL: 'https://kituin-comments.vercel.app/', //  例如 "https://***.vercel.app/"
+             serverURL: 'https://comments.kituin.fun/', //  例如 "https://***.vercel.app/"
            path: '<%- frontmatter.commentid || frontmatter.permalink %>',
              emoji: [
                 'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
