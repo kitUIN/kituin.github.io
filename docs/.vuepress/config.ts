@@ -54,13 +54,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '在红米AC2100上OpenWrt使用', link: '/text/tech/OpenWrt/01/'},
               { text: '创建nuget包(C++/WinRT)', link: '/text/tech/C++WinRT/01/'},
             ]
-          },
-          {
-            text: 'Minecraft',
-            items: [
-              { text: '养老服务器', link: '/text/minecraft/old/01'}
-            ]
           }
+
       ],
     },
     {
