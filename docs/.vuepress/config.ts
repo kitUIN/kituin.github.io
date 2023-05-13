@@ -33,7 +33,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           text: '帮助手册',
           items: [
             { text: 'PicImageSearch', link: 'https://pic-image-search.kituin.fun/' },
-            { text: 'BikaClient', link: 'https://bika-client.kituin.fun/' }
+
           ],
         }
       ],
@@ -263,19 +263,19 @@ author: {
     [
         'vuepress-plugin-comment-plus',
         {
-         choosen: 'waline',
-           // options选项中的所有参数，会传给Waline的配置
-           options: {
-             el: '#valine-vuepress-comment',
-             serverURL: 'https://comments.kituin.fun/', //  例如 "https://***.vercel.app/"
-           path: '<%- frontmatter.commentid || frontmatter.permalink %>',
-             emoji: [
+          choosen: 'waline',
+
+          options: {
+            el: '#valine-vuepress-comment',
+            serverURL: 'https://comments.kituin.fun/',
+            path: '<%- frontmatter.commentid || frontmatter.permalink %>',
+            emoji: [
                 'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
                 'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
               ],
-             placeholder: "请留言"
-           }
-        }
+            placeholder: "请留言",
+          }
+        },
       ],
   ],
 
