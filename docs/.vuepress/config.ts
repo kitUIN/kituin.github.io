@@ -33,7 +33,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           text: '帮助手册',
           items: [
             { text: 'PicImageSearch', link: 'https://pic-image-search.kituin.fun/' },
-
+            { text: 'PicImageSearch', link: '/wiki/inkball/index/' },
           ],
         }
       ],
