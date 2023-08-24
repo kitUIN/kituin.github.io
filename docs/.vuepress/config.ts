@@ -164,7 +164,7 @@ author: {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'KitUIN | <a href="https://github.com/kitUIN/kituin.github.io/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'KitUIN | <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2023024391号</a> | <a href="https://github.com/kitUIN/kituin.github.io/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },
 
 
