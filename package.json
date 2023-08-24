@@ -2,8 +2,9 @@
     "name": "theme-vdoing-blog",
     "version": "1.0.0",
     "scripts": {
-        "dev": "vuepress dev docs",
-        "build": "vuepress build docs",
+        "dev": "export NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs",
+      "build": "export NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
+
         "deploy": "bash deploy.sh",
         "editFm": "node utils/editFrontmatter.js",
         "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh",
@@ -41,5 +42,8 @@
         "vuepress-plugin-zooming": "^1.1.7",
         "vuepress-theme-vdoing": "^1.12.7",
         "yamljs": "^0.3.0"
+    },
+    "dependencies": {
+        "yarn": "^1.22.19"
     }
 }
