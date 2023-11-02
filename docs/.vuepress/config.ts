@@ -34,6 +34,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           items: [
             { text: 'PicImageSearch', link: 'https://pic-image-search.kituin.fun/' },
             { text: 'InkBall', link: '/wiki/inkball/index/' },
+            { text: 'ChatImage', link: 'https://chatimage.kituin.fun/' },
+            { text: 'ShadowViewer', link: 'https://shadowviewer.kituin.fun/' },
           ],
         }
       ],
